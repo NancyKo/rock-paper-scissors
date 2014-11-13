@@ -1,7 +1,10 @@
 require 'sinatra'
 require 'sinatra/reloader' if development?
 
-get '/' do
-	"Hello World!"
+class RockPaperScissorGame < Sinatra::Base 
+	
+	get '/' do
+		"Hello World!"
+	end
 
 end
